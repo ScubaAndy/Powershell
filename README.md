@@ -4,6 +4,7 @@ Powershell
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🎨 PowerShell Profile (Pretty PowerShell)
 
 A stylish and functional PowerShell profile that looks and feels almost as good as a Linux terminal.
@@ -32,6 +33,8 @@ test
 test
 
 test
+=======
+>>>>>>> parent of 7c8a0ec (Update README.md)
 =======
 >>>>>>> parent of 7c8a0ec (Update README.md)
 =======
