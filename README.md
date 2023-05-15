@@ -24,4 +24,3 @@ Now, enjoy your enhanced and stylish PowerShell experience! 🚀
 
 
 test
-test
