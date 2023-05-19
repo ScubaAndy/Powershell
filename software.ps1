@@ -38,6 +38,7 @@ winget install -e --id clsid2.mpc-hc
 #winget install -e --id Microsoft.SQLServer.2019.Developer
 
 #test
+#test
 
 #Install-Module -Name Terminal-Icons -Repository PSGallery
 
