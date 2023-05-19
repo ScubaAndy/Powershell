@@ -35,9 +35,7 @@ winget install -e --id clsid2.mpc-hc
 #winget install -e --id yt-dlp.yt-dlp
 #winget install -e --id Gyan.FFmpeg
 #winget install -e --id Microsoft.Office
-#winget install -e --id Microsoft.SQLServer.2019.Developer
 
-#test1234
 
 #Install-Module -Name Terminal-Icons -Repository PSGallery
 
