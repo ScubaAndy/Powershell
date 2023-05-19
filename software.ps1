@@ -37,6 +37,8 @@ winget install -e --id clsid2.mpc-hc
 #winget install -e --id Microsoft.Office
 #winget install -e --id Microsoft.SQLServer.2019.Developer
 
+#test
+
 #Install-Module -Name Terminal-Icons -Repository PSGallery
 
 #https://www.partitionwizard.com/partitionmagic/powershell-windows-update.html
