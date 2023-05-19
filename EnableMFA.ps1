@@ -9,10 +9,6 @@
     $sta = @($st)
  
 
-
-
-
-
 Set-MsolUser -UserPrincipalName user@company.com  -StrongAuthenticationRequirements $sta
 Set-MsolUser -UserPrincipalName user@company.com  -StrongAuthenticationRequirements $sta
 Set-MsolUser -UserPrincipalName user@company.com  -StrongAuthenticationRequirements $sta
