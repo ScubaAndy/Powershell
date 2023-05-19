@@ -1,5 +1,7 @@
 Write-Host "Finding Azure Active Directory Accounts..."
-$Users = Get-MsolUser -All | ? { $_.UserType -ne "Guest" }
+#$Users = Get-MsolUser -All | ? { $_.UserType -ne "Guest" }
+$Users = Get-MsolUser -All | ? { $_.UserType -ne "Guest" -and $_.UserPrincipalName -Like '*@lacoe.edu'}
+
 $Report = [System.Collections.Generic.List[Object]]::new() # Create output file
 Write-Host "Processing" $Users.Count "accounts..." 
 ForEach ($User in $Users) {
@@ -18,6 +20,8 @@ ForEach ($User in $Users) {
         $MFAEnforced = "Not Enabled"
         $MethodUsed = "MFA Not Used" 
     }
+
+
   
     $ReportLine = [PSCustomObject] @{
         User        = $User.UserPrincipalName
@@ -25,11 +29,13 @@ ForEach ($User in $Users) {
         MFAUsed     = $MFAEnforced
         MFAMethod   = $MethodUsed 
         PhoneNumber = $MFAPhone
-    }
+
+        }
+
                  
     $Report.Add($ReportLine) 
 }
 
 Write-Host "Report is in c:\temp\MFAUsers.CSV"
 $Report | Select User, Name, MFAUsed, MFAMethod, PhoneNumber | Sort Name | Out-GridView
-$Report | Sort Name | Export-CSV -NoTypeInformation -Encoding UTF8 c:\temp\MFAUsers.csv
+$Report | Sort Name | Export-CSV -NoTypeInformation -Encoding UTF8 c:\temp\MFAUsers5-19-2023d.csv
