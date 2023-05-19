@@ -11,6 +11,8 @@ Execute the following command in an elevated PowerShell window to install the Po
 ```
 irm "https://github.com/ChrisTitusTech/powershell-profile/raw/main/setup.ps1" | iex
 ```
+# This is a test
+
 Install SQL Server Dev
 
 ```
