@@ -11,6 +11,11 @@ Execute the following command in an elevated PowerShell window to install the Po
 ```
 irm "https://github.com/ChrisTitusTech/powershell-profile/raw/main/setup.ps1" | iex
 ```
+Install SQL Server Dev
+
+```
+irm "https://raw.githubusercontent.com/ScubaAndy/Powershell/main/InstallSQLDev.ps1" | iex
+```
 
 ## 🛠️ Fix the Missing Font
 
