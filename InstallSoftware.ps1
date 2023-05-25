@@ -23,7 +23,7 @@ winget install -e --id Discord.Discord
 winget install -e --id ProtonTechnologies.ProtonVPN
 winget install -e --id 7zip.7zip
 winget install -e --id TeamViewer.TeamViewer
-winget install -e --id JAMSoftware.TreeSize.Free
+winget install -e --id WinDirStat.WinDirStat
 winget install -e --id WinMerge.WinMerge
 winget install -e --id Nilesoft.Shell
 winget install -e --id Microsoft.VisualStudio.2022.Community
@@ -35,6 +35,7 @@ winget install -e --id GitHub.GitHubDesktop
 #winget install -e --id yt-dlp.yt-dlp
 #winget install -e --id Gyan.FFmpeg
 #winget install -e --id Microsoft.Office
+#winget install -e --id JAMSoftware.TreeSize.Free
 
 
 #Install-Module -Name Terminal-Icons -Repository PSGallery
