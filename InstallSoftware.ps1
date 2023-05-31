@@ -26,7 +26,7 @@ winget install -e --id WinDirStat.WinDirStat
 winget install -e --id WinMerge.WinMerge
 winget install -e --id Nilesoft.Shell
 winget install -e --id Microsoft.VisualStudio.2022.Community
-winget install -e --id Neovim.Neovim
+#winget install -e --id Neovim.Neovim
 winget install -e --id ElectronicArts.EADesktop
 winget install -e --id GitHub.GitHubDesktop
 winget install -e --id Avidemux.Avidemux
