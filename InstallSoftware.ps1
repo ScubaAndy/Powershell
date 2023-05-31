@@ -5,7 +5,6 @@ winget install -e --id Plex.PlexMediaPlayer
 winget install -e --id Google.Chrome
 winget install -e --id Mozilla.Firefox
 winget install -e --id Microsoft.PowerShell
-winget install -e --id JanDeDobbeleer.OhMyPosh
 winget install -e --id Brave.Brave
 winget install -e --id VideoLAN.VLC
 winget install -e --id Greenshot.Greenshot
@@ -37,6 +36,7 @@ winget install -e --id Avidemux.Avidemux
 #winget install -e --id Gyan.FFmpeg
 #winget install -e --id Microsoft.Office
 #winget install -e --id JAMSoftware.TreeSize.Free
+#winget install -e --id JanDeDobbeleer.OhMyPosh
 
 
 #Install-Module -Name Terminal-Icons -Repository PSGallery
