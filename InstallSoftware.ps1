@@ -17,11 +17,11 @@ winget install -e --id Microsoft.SQLServerManagementStudio
 winget install -e --id Synology.DriveClient
 winget install -e --id Synology.ActiveBackupForBusinessAgent
 winget install -e --id qBittorrent.qBittorrent
-winget install -e --id OBSProject.OBSStudio
-winget install -e --id Discord.Discord
+#winget install -e --id OBSProject.OBSStudio
+#winget install -e --id Discord.Discord
 winget install -e --id ProtonTechnologies.ProtonVPN
 winget install -e --id 7zip.7zip
-winget install -e --id TeamViewer.TeamViewer
+#winget install -e --id TeamViewer.TeamViewer
 winget install -e --id WinDirStat.WinDirStat
 winget install -e --id WinMerge.WinMerge
 winget install -e --id Nilesoft.Shell
