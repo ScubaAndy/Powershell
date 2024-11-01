@@ -40,6 +40,7 @@ winget install -e --id Obsidian.Obsidian
 #winget install -e --id Microsoft.Office
 #winget install -e --id JAMSoftware.TreeSize.Free
 #winget install -e --id JanDeDobbeleer.OhMyPosh
+#winget install -e --id Microsoft.SQLServer.2019.Developer
 
 #Install-Module -Name Terminal-Icons -Repository PSGallery
 #https://www.partitionwizard.com/partitionmagic/powershell-windows-update.html
