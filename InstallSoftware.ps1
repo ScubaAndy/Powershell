@@ -8,7 +8,6 @@ winget install -e --id CodecGuide.K-LiteCodecPack.Mega
 winget install -e --id Synology.DriveClient
 winget install -e --id Synology.ActiveBackupForBusinessAgent
 winget install -e --id WinMerge.WinMerge
-winget install -e --id Nilesoft.Shell
 winget install -e --id 7zip.7zip
 winget install -e --id yt-dlp.yt-dlp
 winget install -e --id Gyan.FFmpeg
@@ -16,7 +15,6 @@ winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Notepad++.Notepad++
 winget install -e --id Obsidian.Obsidian
 winget install -e --id AppWork.JDownloader
-winget install -e --id Google.Drive
 winget install -e --id GitHub.GitHubDesktop
 
 #winget install -e --id rcmaehl.MSEdgeRedirect
@@ -44,6 +42,8 @@ winget install -e --id GitHub.GitHubDesktop
 #winget install -e --id JAMSoftware.TreeSize.Free
 #winget install -e --id JanDeDobbeleer.OhMyPosh
 #winget install -e --id Microsoft.SQLServer.2019.Developer
+#winget install -e --id Nilesoft.Shell
+#winget install -e --id Google.Drive
 
 #Install-Module -Name Terminal-Icons -Repository PSGallery
 #https://www.partitionwizard.com/partitionmagic/powershell-windows-update.html
