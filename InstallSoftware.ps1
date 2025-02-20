@@ -5,18 +5,19 @@ winget install -e --id voidtools.Everything
 winget install -e --id Valve.Steam
 winget install -e --id EpicGames.EpicGamesLauncher
 winget install -e --id CodecGuide.K-LiteCodecPack.Mega
-winget install -e --id Synology.DriveClient
-winget install -e --id Synology.ActiveBackupForBusinessAgent
 winget install -e --id WinMerge.WinMerge
 winget install -e --id 7zip.7zip
 winget install -e --id yt-dlp.yt-dlp
 winget install -e --id Gyan.FFmpeg
-winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Notepad++.Notepad++
-winget install -e --id Obsidian.Obsidian
 winget install -e --id AppWork.JDownloader
-winget install -e --id GitHub.GitHubDesktop
+winget install -e --id qBittorrent.qBittorrent
 
+#winget install -e --id Obsidian.Obsidian
+#winget install -e --id GitHub.GitHubDesktop
+#winget install -e --id Microsoft.VisualStudioCode
+#winget install -e --id Synology.ActiveBackupForBusinessAgent
+#winget install -e --id Synology.DriveClient
 #winget install -e --id rcmaehl.MSEdgeRedirect
 #winget install -e --id Plex.PlexMediaPlayer
 #winget install -e --id Google.Chrome
@@ -25,7 +26,6 @@ winget install -e --id GitHub.GitHubDesktop
 #winget install -e --id Brave.Brave
 #winget install -e --id VideoLAN.VLC
 #winget install -e --id Microsoft.SQLServerManagementStudio
-#winget install -e --id qBittorrent.qBittorrent
 #winget install -e --id OBSProject.OBSStudio
 #winget install -e --id Discord.Discord
 #winget install -e --id ProtonTechnologies.ProtonVPN
