@@ -1,1 +1,2 @@
-winget install -e --id Microsoft.SQLServer.2019.Developerr
+winget install -e --id Microsoft.SQLServer.2019.Developer
+hello1
