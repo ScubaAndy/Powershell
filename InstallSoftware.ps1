@@ -12,10 +12,11 @@ winget install -e --id Gyan.FFmpeg
 winget install -e --id Notepad++.Notepad++
 winget install -e --id AppWork.JDownloader
 winget install -e --id qBittorrent.qBittorrent
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id Ollama.Ollama
 
 #winget install -e --id Obsidian.Obsidian
 #winget install -e --id GitHub.GitHubDesktop
-#winget install -e --id Microsoft.VisualStudioCode
 #winget install -e --id Synology.ActiveBackupForBusinessAgent
 #winget install -e --id Synology.DriveClient
 #winget install -e --id rcmaehl.MSEdgeRedirect
