@@ -14,6 +14,7 @@ winget install -e --id AppWork.JDownloader
 winget install -e --id qBittorrent.qBittorrent
 winget install -e --id Microsoft.VisualStudioCode
 winget install -e --id Ollama.Ollama
+winget install --id Git.Git -e --source winget
 
 #winget install -e --id Obsidian.Obsidian
 #winget install -e --id GitHub.GitHubDesktop
